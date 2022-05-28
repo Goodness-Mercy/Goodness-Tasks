@@ -1,0 +1,11 @@
+def find_anagram():
+        if sorted(first_string) == sorted(second_string):
+            print("True")
+        else:
+            print("False")
+        
+        
+        
+first_string = input("Provide the first string: ")
+second_string = input("Provide the second string: ")
+find_anagram()        
